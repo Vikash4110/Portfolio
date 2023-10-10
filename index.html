@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <link rel="stylesheet" href="css/style.css"/>
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+
+      <nav class="navbar">
+        <a href="#home" style="--i: 1" class="action">Home</a>
+        <a href="#about" style="--i: 2">About</a>
+        <a href="#services" style="--i: 3">Education</a>
+        <a href="#projects" style="--i: 4">Projects</a>
+        <a href="#contact" style="--i: 5">Contact</a>
+      </nav>
+    </header>
+
+    <section class="home">
+      <div class="home-content">
+        <h3>Hello , It's Me</h3>
+        <h1>Vikash Bharal</h1>
+        <h3>And I'm a <span class="text"></span></h3>
+        <p>
+          I'm a Aspiring Software Engineer with passion of Software Devlopement
+          <br />Web Developement, C/C++, Kodular
+        </p>
+        <div class="home-sci">
+          <a href="https://m.facebook.com/vikash.bharal?ref=bookmarks" style="--i: 7"><i class="bx bxl-facebook"></i></a>
+          <a href="https://www.instagram.com/its_me_vikash18/" style="--i: 8"><i class="bx bxl-instagram"></i></a>
+          <a href="tel:7973117120" style="--i: 9"><i class="bx bxl-whatsapp"></i></a>
+          <a href="https://geteternalknowledge.blogspot.com" style="--i: 10"><i class="bx bxl-blogger"></i></a>
+          <a href="www.linkedin.com/in/vikash-bharal-5a2a49238" style="--i: 11"><i class="bx bxl-linkedin"></i></a>
+        </div>
+        <div class="btn-box" >Know More</div></div>
+      </div>
+      <div class="photo"><img src="Images/pic1.jpg" alt="" /></div>
+    </section>
+    <script src="js/main.js"></script>
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="Images/imga2.jpeg" alt="">
+      </div>
+      <div class="about-text">
+        <h2>About<span>Me</span></h2>
+        <h4>FrontEnd Developer</h4>
+        <p>Motivated and dedicated B.Tech Computer Science Engineering student with a passion for software development. Currently pursuing my degree from Punjab Technical University, with a strong foundation in programming and problem-solving. Committed to continuous learning and seeking opportunities to grow my skills in the field of software engineering. Enthusiastic blogger, blending my interests in science and geopolitics to create engaging content. Possess strong leadership skills developed through active participation in NCC. Possess a logical and analytical mindset, allowing for a comprehensive approach to problem-solving.Enjoy exploring different cuisines and experimenting with new recipes.Actively engage in swimming, badminton, and basketball to maintain a healthy and active lifestyle.
+          My goal is to become a successful Software Engineer and contribute to innovative projects that drive technological advancements.</p>
+
+          <a href="#" class="btn-box">More About Me</a>
+      </div>
+    </section>
+
+    <div class="services" id="services">
+      <div class="container">
+        <h1 class="sub-title"><span>Education</span></h1>
+        <div class="services-list">
+        <div class="info1">
+         <i></i>
+          <h2>I.K. GUJRAL PUNJAB TECHNICAL UNIVERSITY</h2>
+          <img src="Images/logo1.png" alt="" style="width: 100px; height: 120px;">
+          <br>
+          <p ><b>September 2023 - Pursuing</b></p>
+          <p ><b>Course :</b> Btech Computer Science Engineering</p>
+          <p ><b>Skills :</b> C, C++, Web Developement, Data Structure</p>
+          <a href="https://ptu.ac.in" class="read">Know more</a>
+        </div>
+        <div class="info2"> 
+          <h2>ARMY PUBLIC SCHOOL BEAS</h2>
+          <img src="Images/logo2.png" alt="" style="width: 100px; height: 120px;">
+          <br>
+          <p ><b>April 2014 - July 2022</b></p>
+          <p ><b>Matriculation :</b> 84.8%</p>
+          <p ><b>Intermediate :</b> 84% (Non-Medical)</p>
+          <p ><b>Skills :</b>Communication, Leadership ,Military Training ,Sportsmanship</p>
+          <a href="https://apsbeas.org" class="read">Know more</a>
+        </div>
+      </div>
+      </div>
+    </div>
+
+     <!-- Project Section Start -->
+     <section id="projects" class="projectSection">
+      <h2 class="projectTitle">Projects</h2>
+      <div class="projectContainer">
+        <div class="projectCard" id="project1" style="background-image: url(images/pro3.png);">
+          <div class="projectNumber rightNumber">01</div>
+          <div class="projectContent leftProjectContent">
+            <div class="projectSkillsContainer">
+              <img class="projectSkill" src="./images/stack/HTML.png" alt="" />
+              <img class="projectSkill" src="./images/stack/CSS.png" alt="" />
+              <img class="projectSkill" src="./images/stack/Javascript.svg" alt="" />
+              <!-- <img class="projectSkill" src="./images/stack/Express.png" alt="" />
+              <img class="projectSkill" src="./images/stack/NextJsCircle.png" alt="" />
+              <img class="projectSkill" src="./images/stack/Tailwind.png" alt="" />
+              <img class="projectSkill" src="./images/stack/NodeJs.svg" alt="" />
+              <img class="projectSkill" src="./images/stack/MongoDB.svg" alt="" />
+              <img class="projectSkill" src="./images/stack/Redux.svg" alt="" />
+              <img class="projectSkill" src="./images/stack/Vercel.svg" alt="" /> -->
+            </div>
+            <h2 class="projectHeading">PTU STUDY ZONE</h2>
+            <p class="projectSubHeading">
+              It is a Study website where user can access the Free Study material of ptu like Notes, Pyq, syllabus.
+            </p>
+            <div class="btnGroup">
+              <button class="live-btn">Live</button>  
+              <button class="git-btn" >GitHub</button>                         
+            </div>
+          </div>
+        </div>
+
+        <div class="projectCard" id="project2" style="background-image: url(images/pro4.png);">
+          <div class="projectNumber leftNumber">02</div>
+          <div class="projectContent rightProjectContent">
+            <div class="projectSkillsContainer">
+              <img class="projectSkill" src="./images/stack/HTML.png" alt="" />
+              <img class="projectSkill" src="./images/stack/CSS.png" alt="" />
+              <!-- <img class="projectSkill" src="./images/stack/Javascript.svg" alt="" /> -->
+              <!-- <img class="projectSkill" src="./images/stack/NextJsCircle.png" alt="" /> -->
+              <img class="projectSkill" src="./images/stack/Tailwind.png" alt="" />
+<!-- 
+              <img class="projectSkill" src="./images/stack/Redux.svg" alt="" />
+              <img class="projectSkill" src="./images/stack/Vercel.svg" alt="" /> -->
+            </div>
+            <h2 class="projectHeading">Razorpay Clone</h2>
+            <p class="projectSubHeading">
+              Created the clone of Razorpay.
+            </p>
+            <div class="btnGroup">
+              <button class="live-btn" >Live</button>
+              <button class="git-btn">GitHub</button>
+            
+            </div>
+          </div>
+        </div>
+        <div class="projectCard" id="project3" style="background-image: url(images/pro2.png);">
+          <div class="projectNumber rightNumber">03</div>
+          <div class="projectContent leftProjectContent">
+            <div class="projectSkillsContainer">
+              <img class="projectSkill" src="./images/stack/HTML.png" alt="" />
+              <img class="projectSkill" src="./images/stack/CSS.png" alt="" />
+              <img class="projectSkill" src="./images/stack/Javascript.svg" alt="" />
+                            <img class="projectSkill" src="./images/stack/Tailwind.png" alt="" />
+
+              <!-- <img class="projectSkill" src="./images/stack/Express.png" alt="" />
+              <img class="projectSkill" src="./images/stack/NextJsCircle.png" alt="" />
+            <img class="projectSkill" src="./images/stack/Vercel.svg" alt=""  -->
+            </div>
+            <h2 class="projectHeading">Plan with Bharal</h2>
+            <p class="projectSubHeading">
+              A Website for Tourist Destination with some details and user can remove the cards by pressing Not Interesed Button
+            </p>
+            <div class="btnGroup">
+            <button class="live-btn" >Live</button>
+           <button class="git-btn">GitHub</button>
+            </div>
+          </div>
+        </div>
+        <div class="projectCard" id="project4" style="background-image: url(images/pro1.png);">
+          <div class="projectNumber leftNumber">04</div>
+          <div class="projectContent rightProjectContent">
+            <div class="projectSkillsContainer">
+              <!-- <img class="projectSkill" src="./images/stack/NextJsCircle.png" alt="" /> -->
+              <img class="projectSkill" src="./images/stack/HTML.png" alt="" />
+              <img class="projectSkill" src="./images/stack/CSS.png" alt="" />
+              <img class="projectSkill" src="./images/stack/Javascript.svg" alt="" />
+              <img class="projectSkill" src="./images/stack/Tailwind.png" alt="" />
+
+              <!-- <img class="projectSkill" src="./images/stack/Vercel.svg" alt="" /> -->
+            </div>
+            <h2 class="projectHeading">Password Generator</h2>
+            <p class="projectSubHeading">
+              Create Random password on the basis of condition given and user can copy it also.
+            </p>
+            <div class="btnGroup">
+              <button class="live-btn" >Live</button>
+              <button class="git-btn">GitHub</button>            
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Project Section End  -->
+
+    <section class="contact" id="contact">
+      <div class="contact-text">
+        <h2>Contact <span>Me</span></h2>
+        <h4>Let's Work Together</h4>
+        <p>I'm a frontend web developer passionate about crafting captivating user experiences. My proficiency in HTML, CSS, and JavaScript ensures seamless, responsive interfaces. Committed to user-centric design, I collaborate effectively and bring ideas to life. I'm currently expanding my skill set into backend development with Node.js, Python, and databases like MongoDB and PostgreSQL. By partnering with me, you get a developer dedicated to bridging frontend finesse with powerful backend functionality. Let's connect and elevate your web projects together. I'm ready to explore new challenges and help you achieve your digital goals.
+
+          Feel free to use this concise version in your portfolio</p>
+        <div class="contact-list">
+          <li><i class='bx bxs-send'></i>bharal224@gmail.com</li>
+          <li><i class='bx bx-phone'></i>7973117120</li> 
+        </div>
+        <div class="contact-icons">
+          <a href=""><i class='bx bxl-facebook-circle'></i></a>
+          <a href=""><i class='bx bxl-twitter' ></i></a>
+          <a href=""><i class='bx bxl-instagram' ></i></a>
+          <a href=""><i class='bx bxl-linkedin' ></i></a>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <form action="">
+          <input type="text" placeholder="Enter Your Name" required>
+          <input type="email" placeholder="Enter Your Email" required>
+          <input type="text" placeholder="Enter Your Subject" required>
+          <textarea name="" id="" cols="30" rows="40" placeholder="Enter Your Message" required></textarea>
+
+          <input type="submit" value="submit" class="send">
+        </form>
+      </div>
+    </section>
+    <div class="last-text">
+      <p>Copyright &copy; All Rights Reserved</p>
+    </div>
+    <a href="#" class="top"><i class="bx bx-up-arrow-alt"></i></a>
+  </body>
+</html>
